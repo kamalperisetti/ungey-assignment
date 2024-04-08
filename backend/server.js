@@ -140,3 +140,4 @@ app.get("/customersbydevice", async (req, res) => {
   res.send(result);
   console.log(result);
 });
+

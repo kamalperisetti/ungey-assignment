@@ -2,3 +2,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+.star{
+    color: rgb(254, 238, 12);
+    margin: 5px;
+}
+.start-c{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}

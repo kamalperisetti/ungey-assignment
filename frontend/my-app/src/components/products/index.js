@@ -1,4 +1,6 @@
 import './index.css'
+import { HiStar } from "react-icons/hi";
+
 const Products = (props) => {
     const {details} = props
     return(
@@ -16,7 +18,7 @@ const Products = (props) => {
                 <p>{details.soldAmount}</p>
                 <p>{details.unitPrice}</p>
                 <p>{details.revenue}</p>
-                <p>{details.rating}</p>
+                <p className='start-c'><HiStar className='star'/> {details.rating}</p>
                 
             </li>
         </div>
